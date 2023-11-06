@@ -1,0 +1,161 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: rgb(203, 0, 0);
+  width: 100%;
+  overflow-x: hidden;
+  color: white;
+}
+
+.darrellv-logo {
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  display: block;
+  object-fit: contain;
+  object-position: initial;
+  filter: none;
+  margin: auto;
+  margin-top: 64px;
+}
+
+h1 {
+  margin: 0px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-top: 20px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 0.5px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+a {
+  height: auto;
+  position: relative;
+  width: 100%;
+  appearance: none;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.darrellv-links {
+  z-index: 0;
+  border: 2px solid rgb(50, 5, 0);
+  transition: none 0s ease 0s;
+  box-shadow: rgb(50, 5, 0) 8px 8px 0px 0px;
+  color: rgb(50, 5, 0);
+  border-radius: 30px;
+  position: relative;
+  height: auto;
+  margin-bottom: 16px;
+  background-color: rgb(250, 203, 0);
+  width: 665px;
+  cursor: pointer;
+  margin: auto;
+  padding: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.darrellv-links:hover {
+  translate: 8px 5px 2px;
+  box-shadow: rgb(50, 5, 0) 8px 8px 0px 0px;
+}
+
+.darrellv-links-container {
+  margin-top: 20px;
+}
+
+.darrellv-icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  left: 8px;
+}
+
+.darrellv-dots {
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  right: 8px;
+  display: none;
+}
+
+.darrellv-links-container:hover .darrellv-dots {
+  display: block;
+}
+
+.darrellv-socialmedia {
+  position: absolute;
+  top: 113%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.darrellv-linktree {
+  display: block;
+  padding: 40px 0px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 95px;
+}
+
+.darrellv-container {
+  position: relative;
+}
+
+.darrellv-sharebutton {
+  color: black;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  position: absolute; 
+  top: -40px;
+  right: 390px;
+  z-index: 0;
+}
+
+.darrellv-sharebutton img {
+  width: 30%;
+  position: absolute;
+  z-index: 1;
+  top: 15px;
+  right: 15px;
+}

@@ -1,0 +1,405 @@
+  <html>
+  <html lang="en">
+    <head>
+      <title>Darrell Valentino ETS</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <!-- Logo Website -->
+      <link rel="apple-touch-icon" sizes="180x180" href="{{asset('img/favicon_io/apple-touch-icon.png')}}"/>
+      <link rel="icon" type="image/png" sizes="32x32" href="{{asset('img/favicon_io/favicon-32x32.png')}}"/>
+      <link rel="icon" type="image/png" sizes="16x16" href="{{asset('img/favicon_io/favicon-16x16.png')}}"/>
+      <link rel="manifest" href="{{asset('img/favicon_io/site.webmanifest')}}" />
+
+      <!-- Boostrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+
+      <!-- Import Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+
+      <!-- JQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+      <!-- My CSS -->
+      <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
+    </head>
+
+    <body>
+      <!-- Navbar Darrell Valentino -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <div class="px-4 px-sm-0">
+              <div class="img-profile  position-absolute top-50 start-50 translate-middle">
+                <img class="profile" id="darrell" src="{{ asset('img/assets/hero.png') }}" alt="profile"/>
+              </div>
+              <div class="text-container">
+                <h3 class="mb-0">Darrell ⁰⁸⁶</h3>
+              </div>
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-inline-block" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar Darrell End -->
+
+      <!-- Hero Darrell -->
+      <div id="hero" class="hero mt-5 pb-5 px-4">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-12 col-md-6 d-block mx-auto"> <!-- col-12 for mobile, col-md-8 for larger screens -->
+                <h5 id="introduce">Hello World 👋🏼, I'm</h5>
+                <h1 id="name">Darrell Valentino</h1>
+                <h2 id="major">Information Systems @ <span class="its">ITS Surabaya</span></h2>
+                <p class="pt-2 w-75 text-light webdev">I'm a junior Web Developer and Software Engineer that is willing to learn more.</p>
+                <a href="https://wa.me/+6282121012323">
+                  <button type="button" class="btn btn-primary">Contact Me</button>
+                </a>
+            </div>
+
+            <div class="col-12 col-md-6 pt-5 pt-md-0 text-center d-block mx-auto"> <!-- col-12 for mobile, col-md-4 for larger screens -->
+              <div class="w-100 align-self-end">
+                  <div class="position-relative heroimg">
+                    <img src="{{ asset('img/assets/hero.png') }}" alt="profile" width="250px">
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Darrell End -->
+
+      <!-- About Darrell Start -->
+      <div id="about" class="container-fluid pt-5 pb-5 mx-auto about">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-4 col-lg-6 py-md-3 py-lg-5 d-block mx-auto">
+              <h6>ABOUT ME</h6>
+              <h2>I'm 19 Years Old, pursuing Bachelor and Career.</h2>
+              <p>I'm willing to work hard and enhance my skill in web development.</p>
+            </div>
+
+            <div class="col-md-4 col-lg-6 py-md-3 py-lg-5 d-block mx-auto">
+              <h2 class="pt-4">Connect with Darrell!</h2>
+              <p>Here are my social medias, don't hesitate to reach me out!</p>
+              <!-- Youtube -->
+              <a href="https://www.youtube.com/channel/UCzvZFC6zQZ_-YJ6xdLhogWQ" target="_blank" class="border border-dark rounded-circle px-1 py-1"><svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+
+              <!-- Instagram -->
+              <a href="https://instagram.com/darrellvln" target="_blank" class="border border-dark rounded-circle px-1 py-1"><svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+
+              <!-- Twitter -->
+              <a href="https://twitter.com/DarrellSpam" target="_blank" class="border border-dark rounded-circle px-1 py-1"><svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a>
+
+              <!-- Linkedin -->
+              <a href="https://www.linkedin.com/in/darrellvalentino/" target="_blank" class="border border-dark rounded-circle px-1 py-1"><svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About Darrell End -->
+
+      <!-- Portofolio Darrell Start -->
+      <div id="portfolio" class="container-fluid pt-5 bg-secondary pb-3 shadow portfolio">
+        <div class="container pt-2 pb-5 text-center center-align">
+          <div class="row g-3 g-md-2 g-lg-0">
+            <div class="col-12 pb-2">
+              <h6 class="text-warning">Portfolio</h6>
+              <h2 class="text-light">Darrell's Portfolio</h2>
+              <p class="works">Here are some of my past works.</p>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mx-auto">
+              <div class="card bg-dark shadow-lg text-light" style="width: 18rem;">
+                <img src="{{ asset('img/assets/1.png') }}" class="card-img-top" alt="MabaCup" width="287px" height="133px">
+                <div class="card-body">
+                  <h5 class="card-title">MabaCup 2023</h5>
+                  <p class="card-text">Was the Expert FrontEnd Staff of MabaCup ITS 2023, built the web using Next.js, and TailwindCSS.</p>
+                  <a href="https://mabacup-its.com/links" target="_blank" class="btn btn-primary">Here!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mx-auto">
+              <div class="card bg-dark shadow-lg text-light" style="width: 18rem;">
+                <img src="{{ asset('img/assets/2.png') }}" class="card-img-top" alt="automaTEEs" width="287px" height="133px">
+                <div class="card-body">
+                  <h5 class="card-title">automaTEEs</h5>
+                  <p class="card-text">Developed automaTEEs website for IS Competition 2023 and won 1st place for Software development.</p>
+                  <a href="https://iscom-2023-darrellv14.vercel.app/" target="_blank" class="btn btn-primary">Here!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mx-auto">
+              <div class="card bg-dark shadow-lg text-light" style="width: 18rem;">
+                <img src="{{ asset('img/assets/3.png') }}" class="card-img-top" alt="ToolBeng" width="287px" height="133px">
+                <div class="card-body">
+                  <h5 class="card-title">ToolBeng</h5>
+                  <p class="card-text">FrontEnd Staff of Genics BEM FTEIC and helped a client developed a website for vehicle repair.</p>
+                  <a href="https://toolbeng.id" target="_blank" class="btn btn-primary">Here!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Portofolio Darrell End -->
+
+      <!-- Services Darrell Start -->
+      <div id="services" class="container-fluid pt-3 pb-3 services">
+        <div class="container border border-0 rounded px-3 pt-4 py-5 px-md-4 px-lg-5 pt-2 pb-2 pb-md-3 pb-lg-5">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h6 class="text-danger">Services</h6>
+              <h2 class="text-secondary">Darrell's Services</h2>
+              <p class="works">Here are some of my services.</p>
+            </div>
+          </div>
+          <div id="carouselExampleControls" class="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card bg-dark shadow" style="width: 23rem;">
+                  <div class="img-wrapper">
+                    <img src="{{ asset('img/assets/web.jpg') }}" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-text text-light">
+                      Create a Website/Landing Page for your Company.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">Book Me!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card bg-dark shadow" style="width: 23rem;">
+                  <div class="img-wrapper">
+                    <img src="{{ asset('img/assets/uix.jpg') }}" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">UI/UX Design</h5>
+                    <p class="card-text text-light">
+                      Create a Figma Prototype for your mobile apps.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">Book Me!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card bg-dark shadow" style="width: 23rem;">
+                  <div class="img-wrapper">
+                    <img src="{{ asset('img/assets/cms.jpg') }}" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">CMS Wordpress Site</h5>
+                    <p class="card-text text-light">
+                      Helps you build a CMS Wordpress web services.
+                    </p>
+                    <a href="#" class="btn btn-primary">Book Me!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card bg-dark shadow" style="width: 23rem;">
+                  <div class="img-wrapper">
+                    <img src="{{ asset('img/assets/java.png') }}" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Java Development</h5>
+                    <p class="card-text text-light">
+                      Helps you with Java Algorithm and Data Structure.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">Book Me!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card bg-dark shadow" style="width: 23rem;">
+                  <div class="img-wrapper">
+                    <img src="{{ asset('img/assets/maxresdefault.jpg') }}" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">BPMN Modelling</h5>
+                    <p class="card-text text-light">
+                      Helps you model your business process and message flows.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">Book Me!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card bg-dark shadow" style="width: 23rem;">
+                  <div class="img-wrapper">
+                    <img src="{{ asset('img/assets/video.jpg') }}" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Video Edit Service</h5>
+                    <p class="card-text text-light">
+                      Helps you brainstorm a content and visualize the output.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">Book Me!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Services Darrell End -->
+
+      <!-- Form Validasi dan kirim ke Whatsapp Start -->
+      <div id="contact" class="container-fluid contact shadow pt-5 pb-2">
+        <div class="container">
+          <div class="text-center pb-3">
+            <h6>Contact</h6>
+            <h1>Contact Darrell</h1>
+            <p>Last but not least, don't hesitate to reach me out.</p>
+          </div>
+
+          <section id="form">
+            <form id="contact-form" action="" >
+              <div class="form-group row">
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 mb-3">
+                  <label for="namadepan" class="labelform">First Name :</label>
+                  <input type="text" id="namadepan" class="form-control form-control-md border-0 inputform" placeholder="Nama Depan"/>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6">
+                  <h1 id="validasidepan"></h1>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 mb-3">
+                  <label for="namabelakang" class="labelform">Last Name :</label>
+                  <input type="text" id="namabelakang" class="form-control form-control-md border-0 inputform" placeholder="Nama Belakang"/>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6">
+                  <h1 id="validasibelakang"></h1>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 mb-3">
+                  <label for="nrp" class="labelform">NRP :</label>
+                  <input type="text" id="nrp" class="form-control form-control-md border-0 inputform" placeholder="NRP ITS"/>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6">
+                  <h1 id="validasinrp"></h1>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 mb-3">
+                  <label for="nomor" class="labelform">Nomor WA :</label>
+                  <input type="text" id="nomor" class="form-control form-control-md border-0 inputform" placeholder="Mulai dengan +628"/>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6">
+                  <h1 id="validasinomor"></h1>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 mb-3">
+                  <label for="pesan" class="labelform">Message :</label>
+                  <textarea type="text" id="pesan" rows="3" class="form-control form-control-md border-0 inputform" placeholder="Tuliskan pesanmu di sini!"></textarea>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 pb-3">
+                  <button onclick="validasi()" type="button" class="btn btn-success">Whatsapp Saya!</button>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6">
+                  <div id="validasimessage"></div>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+      <!-- Form Validasi dan kirim ke Whatsapp End -->
+
+      <!-- Footer Darrell Start -->
+      <footer>
+        <div class="container-fluid footerdarrell pt-3">
+          <div class="container pb-2">
+            <div class="row">
+
+              <div class="col-md-3 col-12 mb-4 mb-md-0"></div>
+              <div class="col-md-3 col-12 mb-4 mb-md-0">
+                <h4>Kos Darrell Blok B33</h4>
+                <h5>Marina Emas Barat</h5>
+                <h6>Sukolilo, Surabaya, 60111</h6>
+              </div>
+
+              <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                <h4>Departemen Sistem Informasi</h4>
+                <h5>ITS Surabaya</h5>
+                <h6>Pemrograman Web Kelas D</h6>
+              </div>
+              <div class="col-lg-1 col-md-6 mb-4 mb-md-0"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid copyright text-center pt-2 pb-1">
+          <h6 class="text-dark">Copyright&copy; 2023. Darrell Valentino</h6>
+        </div>
+      </footer>
+      <!-- Footer Darrell End -->
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="{{ asset('js/index.js') }}"></script>
+    </body>
+  </html>
