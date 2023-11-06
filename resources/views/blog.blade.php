@@ -10,5 +10,11 @@
     <h3>www.malasngoding.com</h3>
     <p>Seri Tutorial Laravel Lengkap Dari Dasar</p>
     <p>Ini adalah view blog. Ada di route Blog.</p>
+
+    <p>
+        Nama : {{ $nama}} -
+        Alamat : {{$alamat}} -
+        Umur : {{$umur}}
+    </p>
 </body>
 </html>
