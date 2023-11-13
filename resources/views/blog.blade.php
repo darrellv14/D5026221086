@@ -11,10 +11,12 @@
     <p>Seri Tutorial Laravel Lengkap Dari Dasar</p>
     <p>Ini adalah view blog. Ada di route Blog.</p>
 
-    <p>
+    {{-- <p>
         Nama : {{ $nama}} -
         Alamat : {{$alamat}} -
         Umur : {{$umur}}
-    </p>
+    </p> --}}
+
+    <a href="/pegawai/{{ date('D M Y') }}">Klik Disini</a>
 </body>
 </html>
