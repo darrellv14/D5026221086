@@ -90,15 +90,20 @@ Route::get('/blog/kontak', 'App\Http\Controllers\BlogController@kontak');
 // route CRUD
 Route::get('/pegawai', 'App\Http\Controllers\PegawaiController@index');
 
-
+// add
 Route::get('/pegawai/tambah', 'App\Http\Controllers\PegawaiController@tambah');
 Route::post('/pegawai/store', 'App\Http\Controllers\PegawaiController@store');
 
+// update
 Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
 
 Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 
+// delete
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
 
-// Cari
+// cari
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
+
+// view
+Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
