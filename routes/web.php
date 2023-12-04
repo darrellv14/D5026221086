@@ -107,3 +107,10 @@ Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 // view
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
+
+
+// ROUTE CRUD nilaikuliah
+Route::get('/nilaikuliah', 'App\Http\Controllers\LatihanEASController@index');
+
+Route::get('/nilaikuliah/tambah', 'App\Http\Controllers\LatihanEASController@tambah');
+Route::post('/nilaikuliah/store', 'App\Http\Controllers\LatihanEASController@store');
