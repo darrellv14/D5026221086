@@ -13,12 +13,13 @@
 
 @section('konten')
     <p>Cari Data Pegawai :</p>
-    <form action="/pegawai/cari" method="GET" class="d-flex p-2">
-        <input class="form-control" type="text" name="cari" value="{{ old('cari') }}">
-        <input type="submit" value="CARI" class="btn btn-primary">
+    <form action="/pegawai/cari" method="GET" class="form-inline">
+        <input class="form-control" type="text" name="cari" placeholder="Cari Pegawai berdasarkan nama .."
+            value="{{ old('cari') }}">
+        <input type="submit" value="CARI" class="btn btn-primary ml-3">
     </form>
 
-    <br>
+    <br />
 
     <table class="table table-striped table-hover">
         <tr>
@@ -33,11 +34,11 @@
                 <td>{{ $p->pegawai_nama }}</td>
                 <td>{{ $p->pegawai_jabatan }}</td>
                 <td
-                class="
-                @if($p->pegawai_umur <= 20) bg-success text-white
-                @elseif($p->pegawai_umur >= 21 && $p->pegawai_umur <= 30) bg-warning text-danger
-                @else bg-primary text-white
-                @endif">{{ $p->pegawai_umur }}</td>
+                    @if ($p->pegawai_umur <= 30) class="bg-dark text-white"
+                    @elseif ($p->pegawai_umur >= 31)
+                        class="bg-warning text-white" @endif>
+                    {{ $p->pegawai_umur }}
+                </td>
                 <td>{{ $p->pegawai_alamat }}</td>
                 <td>
                     <a href="/pegawai/view/{{ $p->pegawai_id }}" class="btn btn-success">View</a>
@@ -49,6 +50,6 @@
             </tr>
         @endforeach
     </table>
-    {{ $pegawai->links() }}
+    {{ $pegawai->Links() }}
 
 @endsection

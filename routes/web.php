@@ -110,7 +110,7 @@ Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
 
 // ROUTE CRUD nilaikuliah
-Route::get('/nilaikuliah', 'App\Http\Controllers\LatihanEASController@index');
+Route::get('/nilaikuliah', 'App\Http\Controllers\NilaiKuliahController@index');
 
-Route::get('/nilaikuliah/tambah', 'App\Http\Controllers\LatihanEASController@tambah');
-Route::post('/nilaikuliah/store', 'App\Http\Controllers\LatihanEASController@store');
+Route::get('/nilaikuliah/tambah', 'App\Http\Controllers\NilaiKuliahController@tambah');
+Route::post('/nilaikuliah/store', 'App\Http\Controllers\NilaiKuliahController@store');
