@@ -114,3 +114,24 @@ Route::get('/nilaikuliah', 'App\Http\Controllers\NilaiKuliahController@index');
 
 Route::get('/nilaikuliah/tambah', 'App\Http\Controllers\NilaiKuliahController@tambah');
 Route::post('/nilaikuliah/store', 'App\Http\Controllers\NilaiKuliahController@store');
+
+// ROUTE CRUD kertashvs TUGAS PRA EAS
+Route::get('/kertashvs', 'App\Http\Controllers\KertasHVSController@index');
+
+// add
+Route::get('/kertashvs/tambah', 'App\Http\Controllers\KertasHVSController@tambah');
+Route::post('/kertashvs/store', 'App\Http\Controllers\KertasHVSController@store');
+
+// update
+Route::get('/kertashvs/edit/{id}','App\Http\Controllers\KertasHVSController@edit');
+
+Route::post('/kertashvs/update','App\Http\Controllers\KertasHVSController@update');
+
+// delete
+Route::get('/kertashvs/hapus/{id}','App\Http\Controllers\KertasHVSController@hapus');
+
+// cari
+Route::get('/kertashvs/cari','App\Http\Controllers\KertasHVSController@cari');
+
+// view
+Route::get('/kertashvs/view/{id}','App\Http\Controllers\KertasHVSController@view');

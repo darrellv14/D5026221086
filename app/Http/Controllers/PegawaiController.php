@@ -104,6 +104,3 @@ class PegawaiController extends Controller
     }
 
 }
-
-
-
