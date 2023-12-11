@@ -135,3 +135,27 @@ Route::get('/kertashvs/cari','App\Http\Controllers\KertasHVSController@cari');
 
 // view
 Route::get('/kertashvs/view/{id}','App\Http\Controllers\KertasHVSController@view');
+
+// Route iseng
+Route::get('/etstahunlalu', 'App\Http\Controllers\EtsTahunLaluController@index');
+
+// Route iseng 2
+Route::get('/karyawan', 'App\Http\Controllers\KaryawanController@index');
+
+Route::get('/karyawan/tambah', 'App\Http\Controllers\KaryawanController@tambah');
+Route::post('/karyawan/store', 'App\Http\Controllers\KaryawanController@store');
+
+Route::get('/karyawan/hapus/{id}','App\Http\Controllers\KaryawanController@hapus');
+
+Route::get('/karyawan/view/{id}','App\Http\Controllers\KaryawanController@view');
+Route::get('/karyawan/edit/{id}','App\Http\Controllers\KaryawanController@edit');
+
+
+Route::post('/karyawan/update','App\Http\Controllers\KaryawanController@update');
+
+
+// ROUTE Shopping Cart
+Route::get('/shoppingcart', 'App\Http\Controllers\ShoppingCartController@index');
+Route::get('/shoppingcart/tambah', 'App\Http\Controllers\ShoppingCartController@tambah');
+Route::post('/shoppingcart/store', 'App\Http\Controllers\ShoppingCartController@store');
+Route::get('/shoppingcart/hapus/{id}','App\Http\Controllers\ShoppingCartController@hapus');
