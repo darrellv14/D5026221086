@@ -46,7 +46,12 @@
         <br />
         <hr />
         <footer>
-            <p>&copy; <a href="https://www.malasngoding.com">www.malasngoding.com</a>. 2018 - 2019</p>
+            <nav class="bg-dark navbar-dark mb-0">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">5026221086 - Darrell Valentino</a>
+                <p class="text-light">&copy; <a href="https://www.malasngoding.com">www.malasngoding.com</a>. 2018 - 2019</p>
+                <p class="text-light">&copy; EAS PWEB KELAS D 2023</p>
+            </nav>
         </footer>
 
 
