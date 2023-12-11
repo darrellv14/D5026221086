@@ -24,7 +24,7 @@
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="/pegawai">Pegawai</a>
                   <a class="dropdown-item" href="/kertashvs">Kertas HVS</a>
-                  <a class="dropdown-item" href="/nilaimahasiswa">Nilai Mahasiswa</a>
+                  <a class="dropdown-item" href="/nilaikuliah">Nilai Mahasiswa</a>
                   <a class="dropdown-item" href="/mahasiswa">EAS Mahasiswa</a>
                 </div>
             </div>
