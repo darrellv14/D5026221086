@@ -71,6 +71,7 @@
                                         <li><a href="/responsive" target="_blank">Tugas responsive</a></li>
                                         <li><a href="/style" target="_blank">Tugas style</a></li>
                                         <li><a href="/validasi1" target="_blank">Tugas validasi1</a></li>
+                                        <li><a href="/mahasiswa" target="_blank">EAS Mahasiswa</a></li>
                                     </ol>
                                 </div>
                             </div>

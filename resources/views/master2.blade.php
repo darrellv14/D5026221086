@@ -10,32 +10,24 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="text-center">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="#">5026221086 - Darrell Valentino</a>
 
             <!-- Links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link 2</a>
-                </li>
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Daftar Database
+                </a>
 
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Dropdown link
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="/pegawai">Pegawai</a>
-                        <a class="dropdown-item" href="#">Link 2</a>
-                        <a class="dropdown-item" href="#">Link 3</a>
-                    </div>
-                </li>
-            </ul>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="/pegawai">Pegawai</a>
+                  <a class="dropdown-item" href="/kertashvs">Kertas HVS</a>
+                  <a class="dropdown-item" href="/nilaimahasiswa">Nilai Mahasiswa</a>
+                  <a class="dropdown-item" href="/mahasiswa">EAS Mahasiswa</a>
+                </div>
+            </div>
         </nav>
         <hr />
         <br />

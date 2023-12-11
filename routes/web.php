@@ -159,3 +159,18 @@ Route::get('/shoppingcart', 'App\Http\Controllers\ShoppingCartController@index')
 Route::get('/shoppingcart/tambah', 'App\Http\Controllers\ShoppingCartController@tambah');
 Route::post('/shoppingcart/store', 'App\Http\Controllers\ShoppingCartController@store');
 Route::get('/shoppingcart/hapus/{id}','App\Http\Controllers\ShoppingCartController@hapus');
+
+
+// ROUTE EAS MAHASISWA DARRELL VALENTINO 5026221086
+// Route Halaman index
+Route::get('/mahasiswa', 'App\Http\Controllers\MahasiswaController@index');
+// Route untuk store
+Route::post('/mahasiswa/store', 'App\Http\Controllers\MahasiswaController@store');
+// Route untuk hapus
+Route::get('/mahasiswa/hapus/{id}','App\Http\Controllers\MahasiswaController@hapus');
+// Route untuk view
+Route::get('/mahasiswa/view/{id}','App\Http\Controllers\MahasiswaController@view');
+// Route untuk edit
+Route::get('/mahasiswa/edit/{id}','App\Http\Controllers\MahasiswaController@edit');
+// Route untuk update
+Route::post('/mahasiswa/update','App\Http\Controllers\MahasiswaController@update');
