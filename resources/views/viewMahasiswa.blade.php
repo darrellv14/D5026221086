@@ -44,7 +44,7 @@
                         <div class = "form-group">
                             <label for = "IPK" class = "col-sm-2 control-label">IPK</label>
                             <div class = "col-sm-12">
-                                <input type="number" step="0.01" required="required" name="IPK" value="{{ $m->IPK }}"
+                                <input type="text" required="required" name="IPK" value="{{ $m->IPK }}"
                                     class="form-control">
                             </div>
                         </div>
